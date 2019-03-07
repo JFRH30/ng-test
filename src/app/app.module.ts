@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -10,7 +9,6 @@ import { IonicModule } from '@ionic/angular';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
